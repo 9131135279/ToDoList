@@ -1,0 +1,167 @@
+/* Hello guys to me css File */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: transparent;
+}
+
+#wall {
+    background: linear-gradient(to bottom, #EE9CA7, #FFDDE1);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+#p-id {
+    display: flex;
+    flex-direction: row;
+}
+
+#p-1 {
+    margin-left: 21px;
+}
+
+#p-2 {
+    margin-left: 409px;
+}
+
+#input1 {
+    margin-left: 21px;
+    width: 280px;
+    height: 24px;
+}
+
+#input2 {
+    width: 280px;
+    margin-left: 154px;
+    height: 24px;
+}
+
+#btn {
+    background-color: rgb(22, 141, 246);
+    color: rgba(255, 255, 255, 0.533);
+    height: 33px;
+    border: 2px solid rgb(63, 6, 6);
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#btn:active {
+    background-color: rgb(73, 183, 251);
+    box-shadow: 0 5px rgb(0, 85, 138);
+    transform: translateY(5px);
+    color: white;
+}
+
+.container {
+    background: #161616;
+    width: 840px;
+    height: 370px;
+    margin: auto;
+    box-shadow: 1px 1px black, -0.5em 1px 0.4em black;
+}
+
+hr {
+    display: block;
+    width: 97%;
+    margin-top: 20px;
+    box-shadow: 4px 4px 7px green;
+}
+
+.text-white {
+    color: #fff;
+    margin-top:0;
+}
+
+#check-id1 {
+    margin-top: 35px;
+    margin-left: 21px;
+    margin-right: 0;
+    height: 49px;
+    width: 104px;
+    background-color: black;
+    color: white;
+    border: 5px solid green;
+    border-radius: 2px;
+    box-shadow: 0 9px rgb(56, 29, 203);
+}
+
+#check-id1:active {
+    background-color: red;
+    box-shadow: 0 5px rgb(56, 29, 203);
+    transform: translateY(5px);
+}
+
+.last {
+    border-radius: 10px;
+    background-color: #2a2a2a;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 1px;
+    box-shadow: 5px 5px 5px black;
+}
+
+#last-h1 {
+    display: inline;
+    color: rgb(44, 243, 44);
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+#last-p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: pink;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-shadow: 3px 2px 10px darkorchid;
+    text-decoration: overline underline;
+}
+
+.logo {
+    max-width: 26px;
+    height: auto;
+
+
+}
+
+#delete {
+    display: inline;
+    margin-left: 47%;
+    margin-right: 2%;
+    box-shadow: 2px 3px 7px white;
+    border-radius: 5px;
+
+}
+
+#delete2 {
+    box-shadow: 2px 3px 7px white;
+    border-radius: 5px;
+}
+
+#ulbox {
+    background-color: #70707086;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#libox {
+    list-style-type: square;
+    color: BLACK;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+span {
+    cursor: pointer;
+
+}
+
+span:hover {
+    text-shadow: 3px 3px 5px red;
+}
